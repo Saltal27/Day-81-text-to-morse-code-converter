@@ -28,6 +28,7 @@ while running:
             corresponding_morse_code += MORSE_DICT[char]
         else:
             print(f"Invalid character: {char}. Skipping...")
+            corresponding_morse_code += char
 
     print(f"Here is your Morse code: {corresponding_morse_code}")
 
